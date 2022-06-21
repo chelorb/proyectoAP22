@@ -1,6 +1,13 @@
-img. {
+ img{
 
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 100px;
     border-radius: 25px;
-}
+ }
+
+ barrasup.{
+
+    background-color: brown;
+    width: auto;
+    height: auto;
+ }
