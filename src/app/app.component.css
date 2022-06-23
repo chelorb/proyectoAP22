@@ -1,11 +1,4 @@
-.fondo{
+.body{
 
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(194,68,55,0.4654236694677871) 0%, rgba(13,104,135,1) 94%);
-margin-bottom: auto;
-height: 100%;
-}
-
-body{
-  display: flex;
-  background-color: brown;
+  background-image: url(https://images.pexels.com/photos/2414442/pexels-photo-2414442.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 }
