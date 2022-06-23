@@ -10,6 +10,8 @@
     background-color: black;
     width: auto;
     height: auto;
+    position: fixed;
+    margin-top: 0px;
  }
 
  .ig{
