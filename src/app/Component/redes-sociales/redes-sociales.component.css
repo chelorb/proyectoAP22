@@ -1,6 +1,6 @@
 img{
-  width: 40px;
-  position: absolute;
-  z-index: -1;
+  width: 100px;
+  height: 50x;
+  float: right;
+  margin-top: 10px;
 }
-
