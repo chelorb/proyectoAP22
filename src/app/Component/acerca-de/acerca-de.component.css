@@ -6,3 +6,17 @@
  float: none;
   margin-top: -100px;
 }
+
+div{
+  background-color: orange;
+  text-align: center;
+}
+
+#nombre{
+  font-size: medium;
+  font-weight: 100;
+  margin-top: 10px;
+  color: white;
+
+
+}
