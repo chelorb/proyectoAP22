@@ -21,3 +21,9 @@ div{
 
 
 }
+
+@media (min-widht: 576px) {
+  #fotoperfil {
+    border-radius: 50%;
+  }
+}
