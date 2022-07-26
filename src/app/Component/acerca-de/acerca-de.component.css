@@ -12,11 +12,12 @@ div{
   text-align: center;
 }
 
+/*nombre y apellido */ 
 #nombre{
   font-size: medium;
-  font-weight: 100;
+  font-weight: bold;
   margin-top: 10px;
-  color: white;
+  color: black;
   padding-right: 25px;
 
 
@@ -31,3 +32,27 @@ div{
 #fotoperfil{
   border-radius: 50%;
 }
+
+#titulo{
+  font-size: medium;
+    margin-top: 10px;
+  color: black;
+  padding-right: 25px;
+}
+
+/*estilo de la foto de perfil*/
+
+@media (min-width:576px){
+
+#fofoperfil{
+
+  position: absolute;
+  width: 15%;
+  border-radius: 100%;
+  box-shadow: 40% green;
+}
+
+}
+
+
+
