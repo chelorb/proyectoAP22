@@ -29,9 +29,8 @@ div{
   }
 }
 
-#fotoperfil{
-  border-radius: 50%;
-}
+
+
 
 #titulo{
   font-size: medium;
@@ -49,9 +48,15 @@ div{
   position: absolute;
   width: 15%;
   border-radius: 100%;
-  box-shadow: 40% green;
+
 }
 
+}
+
+@media (max-widht: 576px) {
+  #fotoperfil{
+    border-radius: 100%;
+  }
 }
 
 
