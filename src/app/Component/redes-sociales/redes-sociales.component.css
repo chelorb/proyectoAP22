@@ -16,14 +16,14 @@ img{
 
 #logoap{
 
-  width: 100px;
-  height: 60px;
+  width: 150px;
+  height: 80px;
   float: left;
 }
 
 h1{
   text-align: left;
   position: absolute;
-  margin-top: 15px;
-  margin-left: 120px;
+  margin-top: 20px;
+  margin-left: 150px;
 }
