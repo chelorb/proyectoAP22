@@ -2,21 +2,28 @@
 div{
 
 
-  height: 80px;
+  height: 100px;
 }
 
 img{
-  width: 50px;
-  height: 30x;
+  width: 80px;
+  height: 80px;
   float: right;
   margin-top: 10px;
+  padding: 10px;
 }
 
 
 #logoap{
 
+  width: 100px;
+  height: 60px;
+  float: left;
+}
+
+h1{
+  text-align: left;
   position: absolute;
-  left: auto;
-  width: 10px;
-  height: 10px;
+  margin-top: 15px;
+  margin-left: 120px;
 }
