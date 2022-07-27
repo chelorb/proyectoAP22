@@ -1,0 +1,12 @@
+.row{
+    background-color: orange;
+
+}
+
+.piedepagina{
+
+    color: black;
+    font-size: 15px;
+    text-align: center;
+  box-shadow: 2px -2px 2px black;
+}
