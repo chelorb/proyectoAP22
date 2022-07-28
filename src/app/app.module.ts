@@ -16,6 +16,7 @@ import { PieDePaginaComponent } from './Component/pie-de-pagina/pie-de-pagina.co
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { IniciarSesionComponent } from './Component/iniciar-sesion/iniciar-sesion.component';
+import { PortfolioComponent } from './Component/portfolio/portfolio.component';
 
 
 @NgModule({
@@ -32,6 +33,7 @@ import { IniciarSesionComponent } from './Component/iniciar-sesion/iniciar-sesio
     ProyectosComponent,
     PieDePaginaComponent,
     IniciarSesionComponent,
+    PortfolioComponent,
   
   ],
 
