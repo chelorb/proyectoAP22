@@ -13,6 +13,9 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
 import { SkillsComponent } from './Component/skills/skills.component';
 import { ProyectosComponent } from './Component/proyectos/proyectos.component';
 import { PieDePaginaComponent } from './Component/pie-de-pagina/pie-de-pagina.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -34,6 +37,8 @@ import { PieDePaginaComponent } from './Component/pie-de-pagina/pie-de-pagina.co
     BrowserModule,
     NgCircleProgressModule.forRoot({}),
     AppRoutingModule,
+    HttpClientModule,
+    FormsModule,
         
   ],
 
