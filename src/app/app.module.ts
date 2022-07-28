@@ -15,6 +15,7 @@ import { ProyectosComponent } from './Component/proyectos/proyectos.component';
 import { PieDePaginaComponent } from './Component/pie-de-pagina/pie-de-pagina.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { IniciarSesionComponent } from './Component/iniciar-sesion/iniciar-sesion.component';
 
 
 @NgModule({
@@ -30,6 +31,7 @@ import { FormsModule } from '@angular/forms';
     SkillsComponent,
     ProyectosComponent,
     PieDePaginaComponent,
+    IniciarSesionComponent,
   
   ],
 
