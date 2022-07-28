@@ -11,6 +11,7 @@
 div{
   background-color: rgb(231, 153, 49);
   text-align: center;
+  position: relative;
 }
 
 /*nombre y apellido */ 
