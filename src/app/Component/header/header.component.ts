@@ -1,6 +1,6 @@
 import { HttpErrorResponse } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
-import { Usuario } from 'src/app/Modelos/usuario';
+import { DatosUsuario,} from 'src/app/Modelos/usuario';
 import { HeaderService } from 'src/app/Servicios/header.service';
 
 @Component({
@@ -10,8 +10,8 @@ import { HeaderService } from 'src/app/Servicios/header.service';
 })
 export class HeaderComponent implements OnInit {
 
-  public usuario: Usuario|undefined;
-  public editUsuario: Usuario|undefined;
+  public DatosUsuario: DatosUsuario|undefined;
+  public actualizarUsuario: DatosUsuario|undefined;
 
   constructor(private headerService:HeaderService) { }
 
@@ -24,9 +24,9 @@ export class HeaderComponent implements OnInit {
 
     this.headerService.getUser().subscribe({
 
-      next: (response: Usuario) => {
+      next: (response: DatosUsuario) => {
 
-        this.usuario=response;
+        this.DatosUsuario=response;
 
       },
 

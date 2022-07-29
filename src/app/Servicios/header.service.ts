@@ -2,7 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core'
 import { Observable } from 'rxjs';
 import { environment } from 'src/environments/environment';
-import { Usuario } from '../Modelos/usuario';
+import { DatosUsuario} from '../Modelos/usuario';
 
 @Injectable({
   providedIn: 'root'
@@ -14,14 +14,14 @@ export class HeaderService {
 
   constructor (private http: HttpClient) {   }
 
-  public getUser():Observable<Usuario> {
+  public getUser():Observable<DatosUsuario> {
 
-    return this.http.get<Usuario>(`{$this.apiServerUrl}/usuario/id/1`);
+    return this.http.get<DatosUsuario>(`${this.apiServerUrl}/usuario/id/1`);
   }
 
-public updateUsuario(usuario: Usuario):Observable<Usuario>{
+public actualizarUsuario(usuario: DatosUsuario):Observable<DatosUsuario>{
 
-  return this.http.put<Usuario>(`${this.apiServerUrl}usuario/update`, usuario);
+  return this.http.put<DatosUsuario>(`${this.apiServerUrl}usuario/editar`, usuario);
 
 
 }
