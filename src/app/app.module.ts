@@ -14,8 +14,7 @@ import { SkillsComponent } from './Component/skills/skills.component';
 import { ProyectosComponent } from './Component/proyectos/proyectos.component';
 import { PieDePaginaComponent } from './Component/pie-de-pagina/pie-de-pagina.component';
 import { HttpClientModule } from '@angular/common/http';
-import { FormsModule } from '@angular/forms';
-import { IniciarSesionComponent } from './Component/iniciar-sesion/iniciar-sesion.component';
+import { FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { PortfolioComponent } from './Component/portfolio/portfolio.component';
 
 
@@ -32,9 +31,12 @@ import { PortfolioComponent } from './Component/portfolio/portfolio.component';
     SkillsComponent,
     ProyectosComponent,
     PieDePaginaComponent,
-    IniciarSesionComponent,
     PortfolioComponent,
+
   
+  
+
+
   ],
 
   imports: [
@@ -43,6 +45,8 @@ import { PortfolioComponent } from './Component/portfolio/portfolio.component';
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
+    ReactiveFormsModule,
+   
         
   ],
 
